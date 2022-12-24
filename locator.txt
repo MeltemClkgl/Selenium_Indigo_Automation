@@ -1,0 +1,38 @@
+    static void language_ButtonLocators() {
+        language = driver.findElement(By.xpath("//*[@data-a8n = 'service-link__language']"));
+        language = driver.findElement(By.xpath("(//name[@class='service-link--services'])[6]"));
+        language = driver.findElement(By.cssSelector("#language-switcher-link"));
+        language = driver.findElement((By.linkText("Français")));
+    }
+
+
+
+       static void gifts_ButtonLocators() {
+            gifts = driver.findElement(By.xpath("//*[@data-a8n=\"side-nav__a-level-list--button\"]"));
+            gifts= driver.findElement(By.linkText("Gifts"));
+            gifts= driver.findElement(By.xpath("//a[contains[@href='/en-ca/Gifts/']]"));
+            gifts = driver.findElement(By.tagName("a"));
+        }
+
+    ClassAdi.degiskenAdi;
+    new ClassAdi().degiskenAdi
+
+
+
+    sabitlerimzi icn bir classimizz
+     webelementlerimiz icin bir classimiz var
+     reusableMethodsClassi(txtFileOku, sayilariTopla)
+
+     bu gibi classlardaki tum degisken ve methodlarimizi bilerek non-static tutariz
+     bu tum classlardan obje olusturmak zorunda oldugumuz anlamina gelir
+     O zman onlarca clasin onlarca objesini duzenli tutmak gerekir
+     o zaman bir de gider 1 tane objectlerim diye class olusturur tum objeleri onun icinde depolariz
+
+
+
+yapilacaklar
+
+sout mesajlarininin duzeltilmesi
+
+
+
