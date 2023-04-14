@@ -23,10 +23,7 @@ public class Indigo_WebElementlerim
         switch (webElement) {
             case "stayInTheKnowPopUpClose_button":
                 element=getDriver().findElement(By.xpath("//button[@class=\"browsepopup-closebtn\"]"));
-                //2.locator
-                // 3.locator
-                // 4.locator
-                // 5.locator
+                
                 break;
             case "searchBar_textBox":
                 element=getDriver().findElement(By.name("SearchBoxKeywords"));break;
@@ -36,18 +33,18 @@ public class Indigo_WebElementlerim
                 element= getDriver().findElement(By.xpath("/html/body/div[10]/div[2]/div[2]/div[3]/a/span"));break;
             case "proceedToCheckOutButton":
                 element= getDriver().findElement(By.xpath("//*[.=\"Proceed to Checkout\"]"));break;
-               //element= getDriver().findElement(By.xpath("//*[@id=\"cart-proceedToCheckOut-button\"]"));break;
+              
 
 
             case "login_emailTextbox":
                 element=getDriver().findElement(By.id("sign-in-email"));break;
-                //element=getDriver().findElement(By.id("browseCart-signInPopup-emailTextbox"));break;
+                
             case "login_passwordTextbox":
                 element=getDriver().findElement(By.id("sign-in-password"));break;
-                //element= getDriver().findElement(By.id("browseCart-signInPopup-passwordTextbox"));break;
+              
             case "signInButton":
                 element= getDriver().findElement(By.xpath("//button[text()='Sign In']"));break;
-                //element= getDriver().findElement(By.className("js-clickSignIn-button"));break;
+               
             default:
                 throw new MyWebElementNameIsWrongException("Given String parameter is wrong");
         }
