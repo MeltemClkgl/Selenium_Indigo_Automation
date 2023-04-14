@@ -5,14 +5,10 @@ import com.indigo.ClassObjectlerim;
 public class SelectTheBook_AddToCart extends ClassObjectlerim
 {
 
-    //INTELLIJ'DEKI JAVA-MAVEN-SELENIUM FRAMEWORK'UMDE SUANLIK SADECE 1 TEST(SCENARIO) VARDIR.
-    //O DA BU CLASIN ICINDE ASAGIDAKI GIBIDIR
+    
 
     public static void main(String[] args) throws InterruptedException {
 
-        //Benim 1 tane TESTCASE'IM VAR.
-        //SCENARIO'su Indigo websitesinden kitap secip, sepete eklemektir.
-        //Bu testcase'im 6 tane TEST STEP'ten olusmaktadir.
 
 
         //TEST CASE 1 - TC01
