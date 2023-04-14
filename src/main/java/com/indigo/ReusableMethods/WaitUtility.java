@@ -14,7 +14,6 @@ public class WaitUtility
 
     public void webDriverWait(Object webElement, String condition)
     {
-        //local variable=method'a ait variable en basta default deger de olsa initialize edilmelidir
         WebDriverWait wait = null;
 
         if(!condition.isEmpty())
